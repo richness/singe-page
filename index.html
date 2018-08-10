@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css">
+        html,
+        body,
+        img {
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        img {
+            width: 100%;
+            border: none;
+            vertical-align: bottom;
+        }
+
+        .section {
+            position: relative;
+            top: -0.01rem;
+            height: 30rem;
+            background: url("/img/adb.jpg") no-repeat;
+            background-size: cover;
+            overflow: hidden;
+        }
+
+        .btna {
+            margin: 4.5rem auto 0.4rem;
+            width: 86%;
+            height: 5.5rem;
+            background: url("/img/bgb.png") no-repeat;
+            background-size: 100% 100%;
+        }
+
+        .des {
+            position: absolute;
+            bottom: 4.5rem;
+        }
+
+        .panel {
+            display: flex;
+            justify-content: center;
+        }
+
+        .a {
+            height: 4rem;
+            align-items: center;
+        }
+
+        .b {
+            font-size: 0.8rem;
+            margin-top: -0.2rem;
+        }
+
+        .money {
+            font-size: 3rem;
+            position: relative;
+        }
+
+        .money::before {
+            content: "￥";
+            position: absolute;
+            top: 0.8rem;
+            left: -0.8rem;
+            font-size: 1rem;
+
+        }
+        a{
+            text-decoration: none;
+            color: #fff
+        }
+
+        .btn-a {
+            width: 2.5rem;
+            height: 2.5rem;
+            box-sizing: border-box;
+            padding-top: 0.35rem;
+            border-radius: 100%;
+            background-color: rgba(0, 0, 0, 0.2);
+            text-align: center;
+            font-size: 0.6rem;
+            margin-left: 0.5rem;
+        }
+    </style>
+    <script src="/flexible/viewport.js"></script>
+</head>
+
+<body>
+    <img src="/img/ada.png" alt="">
+    <div class="section">
+        <div class="btna">
+            <div class="panel a">
+                <div class="money">
+                    50
+                </div>
+                <a href="">
+                    <div class="btn-a">
+                        立即
+                        <br/> 领取
+                    </div>
+                </a>
+
+            </div>
+            <div class="panel b">
+                满258元可用，有效期7日
+            </div>
+        </div>
+        <a href="">
+            <img src="/img/btnb.png" alt="">
+        </a>
+        <img class="des" src="/img/pas.png" alt="">
+    </div>
+</body>
+
+</html>
